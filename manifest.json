@@ -3,7 +3,7 @@
 
   "name": "searchcuts",
   "description": "This extension enables you to select a google search result with the keyboard",
-  "version": "0.2",
+  "version": "0.3",
 
   "content_scripts": [
     {
