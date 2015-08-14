@@ -1,4 +1,3 @@
-
 $('h3.r').each(function( index) {
   var shortcut_number = (index + 1) % 10;
   $(this).prepend( "press " + shortcut_number +": " );
