@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search Selector",
+  "description": "This extension enables you to select a google search result with the keyboard",
+  "version": "0.2",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.co.za/*"
+      ],
+      "js": [
+        "jquery.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
