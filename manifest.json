@@ -8,7 +8,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.co.za/*"
+        "https://www.google.co.za/*",
+        "https://www.google.com/*"
       ],
       "js": [
         "jquery.min.js",
